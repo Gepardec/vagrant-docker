@@ -8,14 +8,14 @@
 
 # vagrant-docker
 
-We love to container. To get started with container is easy. Almost any OS for your workstation now supports docker. Just install it and you can get started. But for a training / test environment it is best if everybody uses the same setup. The goal is to have a common environment in which we can work and fix errors if they occur, not one per participant. This is why we have put docker into a CentOS 7 based VM that can easily be used via vagrant.
+We love to container. To get started with container is easy. Almost any OS for your workstation now supports docker. Just install it and you can get started. But for a training / test environment it is best if everybody uses the exact same setup. The goal is to have a common environment in which we can work and fix errors once if they occur, not on a per participant basis. As a logical consequencee we have put docker into a CentOS 7 based VM that can easily be managed via vagrant.
 
 ## Preflight
 
-You can run our docker training environment on your workstation once you have 
+You can run our container training environment on your workstation once you have 
 
 * [Vagrant](https://www.vagrantup.com/intro/getting-started/install.html)
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) or Hyper-V on Windows
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) or Hyper-V for Windows
 
 installed and downloaded this git repo. 
 
