@@ -1,14 +1,14 @@
-![Maintenance](https://img.shields.io/maintenance/yes/2019)
-![GitHub](https://img.shields.io/github/license/gepardec/vagrant-docker)
+![](https://img.shields.io/badge/license-GPL%20v3.0-brightgreen.svg)
+![Maintenance](https://img.shields.io/maintenance/yes/2020)
 <p align="right">
-<img alt="gepardec" width=100px src="https://github.com/Gepardec/vagrant-docker/raw/master/.images/gepardec.png">
+<img alt="gepardec" width=100px src="https://github.com/Gepardec/branding/raw/master/logo/gepardec.png">
 </p>
 <br>
 <br>
 
 # vagrant-docker
 
-We love to docker. To get started with docker is easy. Almost any OS for your workstation now supports docker. Just install it and you can get started. But for a training / test environment it is best if everybody uses the same setup. The goal is to have a common environment in which we can work and fix errors if they occur, not one per participant. This is why we have put docker into a CentOS 7 based VM that can easily be used via vagrant.
+We love to container. To get started with container is easy. Almost any OS for your workstation now supports docker. Just install it and you can get started. But for a training / test environment it is best if everybody uses the same setup. The goal is to have a common environment in which we can work and fix errors if they occur, not one per participant. This is why we have put docker into a CentOS 7 based VM that can easily be used via vagrant.
 
 ## Preflight
 
