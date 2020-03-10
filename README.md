@@ -8,21 +8,21 @@
 
 # vagrant-docker
 
-We love to container. To get started with container is easy. Almost any OS for your workstation now supports docker. Just install it and you can get started. But for a training / test environment it is best if everybody uses the exact same setup. The goal is to have a common environment in which we can work and fix errors once if they occur, not on a per participant basis. As a logical consequencee we have put docker into a CentOS 7 based VM that can easily be managed via vagrant.
+We love to container. To get started with container is easy. Almost any OS for your workstation now supports docker. Just install it and you can get started. But for a training / test environment it is best if everybody uses the exact same setup. The goal is to have a common environment in which we can work and fix errors once if they occur, not on a per participant basis. As a logical consequencee we have put docker into a centos 7 based VM that can easily be managed via vagrant.
 
 ## Preflight
 
 You can run our container training environment on your workstation once you have 
 
 * [Vagrant](https://www.vagrantup.com/intro/getting-started/install.html)
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) or Hyper-V for Windows
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) or hyper-v for windows
 
 installed and downloaded this git repo. 
 
 
 ## Quickstart
 
-To bootstrap the CentOS 7 VM with docker simply run.
+To bootstrap a centos 7 vm with docker installed simply run
 
 ```
 vagrant up
@@ -36,9 +36,9 @@ To work with the environment you can connect to it via
 vagrant ssh
 ```
 
-once connected you are connected to the CentOS VM and can run your docker commands on a linux based system.
+once connected you are connected to the centos vm and can run your docker commands on a linux based system.
 
-**Hint:** the VM is only reachable from your host. You should not allow outside access since the VM is not hardend. This is a local playground and should not be allowed to be accessed via the network.
+**Hint:** the vm is only reachable from your host. You should not allow outside access since the vm is not hardend. This is a local playground and should not be allowed to be accessed via the network.
 
 ## Cleanup
 To destroy it once you no longer need it via
@@ -51,7 +51,7 @@ vagrant destroy
 
 ## Customize the VM specs
 
-You can alter the default configuration for the Vagrant VM in the top section of the Vagrantfile
+You can alter the default configuration for your vagrant vm in the top section of the Vagrantfile
 
 ```ruby
 #########################
