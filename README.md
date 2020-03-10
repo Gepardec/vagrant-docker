@@ -15,7 +15,7 @@ We love to container. To get started with container is easy. Almost any OS for y
 You can run our docker training environment on your workstation once you have 
 
 * [Vagrant](https://www.vagrantup.com/intro/getting-started/install.html)
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) or Hyper-V on Windows
 
 installed and downloaded this git repo. 
 
@@ -28,6 +28,8 @@ To bootstrap the CentOS 7 VM with docker simply run.
 vagrant up
 ```
 
+**Hint:** Windows user working with hyper-v can either add the `--provider hyperv` option to use hyper-v as provider if virtualbox is installed as well or set hyper-v default in the usercontext by setting the user environment variable in powershell via `[Environment]::SetEnvironmentVariable("VAGRANT_DEFAULT_PROVIDER", "hyperv", "User")`. Further documentation can be found here: https://docs.microsoft.com/en-us/virtualization/community/team-blog/2017/20170706-vagrant-and-hyper-v-tips-and-tricks 
+ 
 To work with the environment you can connect to it via
 
 ```
