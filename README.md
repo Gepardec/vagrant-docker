@@ -58,7 +58,7 @@ You can alter the default configuration for the Vagrant VM in the top section of
 $CPU = 2
 $MEMORY = 2048
 $CPUEXECUTIONCAP = 50
-$IP = "192.168.0.3"
+$IP = "192.168.0.4"
 $BASEOS = "centos/7"
 $SSH=2224
 #########################
