@@ -5,11 +5,14 @@
     - name: Install python for Ansible
       raw: test -e /usr/bin/python3 || (yum install -y python3)
       changed_when: false
-  roles:
-  - role: gepardec.basics
-  - role: gepardec.ntp
-  - role: gepardec.docker
-    vars: 
-      docker_users:
-      - vagrant
-    
+  tasks:
+    - include_role:
+        name: gepardec.basics
+    - include_role:
+        name: gepardec.ntp
+    - include_role:
+        name: gepardec.docker
+      vars: 
+        docker_users:
+          - vagrant
+...
