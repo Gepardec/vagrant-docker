@@ -1,0 +1,20 @@
+---
+stages:
+  - lint
+  - test
+
+lint:
+  stage: lint
+  tags:
+    - windows
+    - hyperv
+  script: vagrant validate
+
+vagrant:
+  stage: test
+  tags:
+    - windows
+    - hyperv
+  script:
+    - vagrant up; vagrant destroy -f
+...
