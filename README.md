@@ -1,4 +1,4 @@
-![pipeline](https://gitlab.com/ckaserer/vagrant-docker/badges/master/pipeline.svg?style=flat-square)
+[![pipeline](https://gitlab.com/ckaserer/vagrant-docker/badges/master/pipeline.svg?style=flat-square)](https://gitlab.com/ckaserer/vagrant-docker/pipelines/latest)
 ![gplv3](https://img.shields.io/badge/license-GPL%20v3.0-brightgreen.svg?style=flat-square)
 ![maintenance](https://img.shields.io/maintenance/yes/2020?style=flat-square)
 <p align="right">
