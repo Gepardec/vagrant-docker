@@ -10,7 +10,7 @@ lint:
     - hyperv
   script: vagrant validate
 
-vagrant:
+windows:
   stage: test
   tags:
     - windows
