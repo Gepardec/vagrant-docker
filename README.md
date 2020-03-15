@@ -1,5 +1,6 @@
-![](https://img.shields.io/badge/license-GPL%20v3.0-brightgreen.svg)
-![Maintenance](https://img.shields.io/maintenance/yes/2020)
+![pipeline](https://gitlab.com/ckaserer/vagrant-docker/badges/master/pipeline.svg?style=flat-square)
+![gplv3](https://img.shields.io/badge/license-GPL%20v3.0-brightgreen.svg?style=flat-square)
+![maintenance](https://img.shields.io/maintenance/yes/2020?style=flat-square)
 <p align="right">
 <img alt="gepardec" width=100px src="https://www.gepardec.com/files/gepardec_logo_light_background@2000w.png">
 </p>
