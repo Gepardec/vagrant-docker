@@ -1,4 +1,5 @@
-[![pipeline](https://gitlab.com/ckaserer/vagrant-docker/badges/master/pipeline.svg?style=flat-square)](https://gitlab.com/ckaserer/vagrant-docker/pipelines/latest)
+![Gitlab pipeline](https://img.shields.io/gitlab/pipeline/ckaserer/vagrant-docker?label=windows-pipeline&style=flat-square)
+![Travis build](https://img.shields.io/travis/com/gepardec/vagrant-docker?label=linux-pipeline&style=flat-square)
 ![gplv3](https://img.shields.io/badge/license-GPL%20v3.0-brightgreen.svg?style=flat-square)
 ![maintenance](https://img.shields.io/maintenance/yes/2020?style=flat-square)
 <p align="right">

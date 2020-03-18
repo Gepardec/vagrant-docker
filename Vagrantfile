@@ -24,6 +24,11 @@ Vagrant.configure("2") do |config|
     v.cpus = $CPU
   end
   
+  config.vm.provider "libvirt" do |v|
+    v.memory = $MEMORY
+    v.cpus = $CPU
+  end
+  
   config.vm.network "private_network", ip: $IP
   config.vm.network "forwarded_port", guest: 22, host: $SSH, id: 'ssh'
 
