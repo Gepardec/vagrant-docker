@@ -9,9 +9,9 @@
     - include_role:
         name: gepardec.basics
     - include_role:
-        name: gepardec.ntp
+        name: geerlingguy.ntp
     - include_role:
-        name: gepardec.docker
+        name: geerlingguy.docker
       vars: 
         docker_users:
           - vagrant

@@ -1,5 +1,5 @@
-![Gitlab pipeline](https://img.shields.io/gitlab/pipeline/ckaserer/vagrant-docker?label=windows-pipeline&style=flat-square)
-![Travis build](https://img.shields.io/travis/com/gepardec/vagrant-docker?label=linux-pipeline&style=flat-square)
+<!--![Gitlab pipeline](https://img.shields.io/gitlab/pipeline/ckaserer/vagrant-docker?label=windows-pipeline&style=flat-square)-->
+[![Travis build](https://img.shields.io/travis/com/gepardec/vagrant-docker?label=linux-pipeline&style=flat-square)](https://travis-ci.com/github/gepardec/vagrant-docker)
 ![gplv3](https://img.shields.io/badge/license-GPL%20v3.0-brightgreen.svg?style=flat-square)
 ![maintenance](https://img.shields.io/maintenance/yes/2020?style=flat-square)
 <p align="right">
@@ -21,6 +21,7 @@ You can run our container training environment on your workstation once you have
 
 installed and downloaded this git repo. 
 
+---
 
 ## Quickstart
 
@@ -41,6 +42,8 @@ vagrant ssh
 once connected you are connected to the centos vm and can run your docker commands on a linux based system.
 
 **Hint:** the vm is only reachable from your host. You should not allow outside access since the vm is not hardend. This is a local playground and should not be allowed to be accessed via the network.
+
+---
 
 ## Cleanup
 To destroy it once you no longer need it via
